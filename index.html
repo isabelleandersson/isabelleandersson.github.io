@@ -1,0 +1,205 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <meta name="description" content="">
+  <meta name="author" content="">
+
+  <title>Battleship</title>
+
+  <!-- Bootstrap core CSS -->
+  <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+
+  <!-- Custom fonts for this template -->
+  <link href="vendor/font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
+  <link href="https://fonts.googleapis.com/css?family=Lora:400,700,400italic,700italic" rel="stylesheet" type="text/css">
+  <link href='https://fonts.googleapis.com/css?family=Cabin:700' rel='stylesheet' type='text/css'>
+
+  <!-- Custom styles for this template -->
+  <link href="css/grayscale.min.css" rel="stylesheet">
+
+</head>
+
+<body id="page-top">
+
+  <!-- Navigation -->
+  <nav class="navbar navbar-expand-lg navbar-light fixed-top" id="mainNav">
+    <div class="container">
+      <a class="navbar-brand js-scroll-trigger" href="#page-top">Battleship</a>
+      <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarResponsive"
+        aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+        Menu
+        <i class="fa fa-bars"></i>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarResponsive">
+        <ul class="navbar-nav ml-auto">
+          <li class="nav-item">
+            <a class="nav-link js-scroll-trigger" href="#about">Om Battleship</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link js-scroll-trigger" href="#design">Design</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link js-scroll-trigger" href="#download">Download</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link js-scroll-trigger" href="#Projektrapport">Projektrapport</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link js-scroll-trigger" href="#contact">Kontakt</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <!-- Intro Header -->
+  <header class="masthead">
+    <div class="intro-body">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-8 mx-auto">
+            <h1 class="brand-heading">Battleship</h1>
+            <p class="intro-text">Battleship är det klassiska spelet som nyskapats i kursen
+              <br> Nätverksprogrammering, EDAF65, vid Lunds Tekniska Högskola.
+              <br>Created by Daniel Andersson, Isabelle Andersson,
+              <br>Petter Haglund, Erik Kronberg, Otto Sörnäs.</p>
+            <a href="#about" class="btn btn-circle js-scroll-trigger">
+              <i class="fa fa-angle-double-down animated"></i>
+            </a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </header>
+
+  <!-- About Section -->
+  <section id="about" class="content-section text-center">
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-8 mx-auto">
+          <h2>Om Battleship</h2>
+          <p>Battleship eller Sänka skepp som det heter på svenska är ett gissningsspel för två spelare. Vardera spelare
+            har en spelplan som utgörs av ett 7x7 rutnät. På detta utplaceras 5 stycken fartyg av olika storlek. Spelet
+            går ut på att sänka den andre spelarens skepp genom bombningar. Varje spelare har tre bomber att avfyra innan
+            det är nästa spelares tur. Spelet är över när en av spelarna har lyckats sänka den andres skepp.
+          </p>
+          <p></p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+   <!-- Design Section -->
+   <section id="design" class="content-section text-center">
+    <div class="container">
+      <div class="col-lg-8 mx-auto">
+        <h2>Design</h2>
+        <p>Vi valde att kommunicera via UDP. 
+          Vårt spel har inte behov av den säkerhet som TCP kan bidra med, 
+          dessutom är UDP standard för de flesta onlinespel. Krav för att kunna spela är att användarna använder samma
+          nätverk. Den första spelaren skapar ett "host game" och den andra spelaren kan joina detta. 
+      </p>
+      </div>
+    </div>
+  </section>
+
+  <!-- Download Section -->
+  <section id="download" class="download-section content-section text-center">
+    <div class="container">
+      <div class="col-lg-8 mx-auto">
+        <h2>Download Battleship</h2>
+        <p>Någon text</p>
+        <a href="LÄGG IN LÄNK TILL KOD" class="btn btn-default btn-lg">Ladda ner spelet här!</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- Projektrapport Section -->
+  <section id="Projektrapport" class="content-section text-center">
+    <div class="container">
+      <div class="col-lg-8 mx-auto">
+        <h2>Projektrapport</h2>
+        <p>Läs mer om projektet i vår projektrapport som laddas ner här.</p>
+        <a href="Rapport.pdf" class="btn btn-default btn-lg">Visit Projektrapport</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- Contact Section -->
+  <section id="contact" class="content-section text-center" style="background-color: rgb(40, 40, 40)">
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-8 mx-auto">
+          <h2>Kontakt</h2>
+          <p>Följande personer har arbetat med projektet Battleship i kursen Nätverksprogrammering, EDAF65.
+          </p>
+          <ul class="list-inline banner-social-buttons">
+            <li class="list-inline-item">
+              <a href="https://github.com/danderssongit/edaf65battleship" class="btn btn-default btn-lg">
+                <i class="fa fa-github fa-fw"></i>
+                <span class="network-name">Github</span>
+              </a>
+            </li>
+          </ul>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-lg-4" style="background-color:rgb(80, 80, 80);">
+          <p>Daniel Andersson
+            <br> soc13dan
+          </p>
+        </div>
+        <div class="col-lg-4" style="background-color:rgb(75, 75, 75);">
+          <p>Isabelle Andersson, L14
+            <br> mat13ian
+          </p>
+        </div>
+        <div class="col-lg-4" style="background-color:rgb(70, 70, 70);">
+          <p>Petter Haglund
+            <br> vov11pha
+          </p>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-lg-6" style="background-color:rgb(65, 65, 65);">
+          <p>Erik Kronberg, L14
+            <br> lan14ekr
+          </p>
+        </div>
+        <div class="col-lg-6" style="background-color:rgb(60, 60, 60);">
+          <p>Otto Sörnäs
+            <br> dic15oso
+          </p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+
+  <!-- Footer -->
+  <footer>
+    <div class="container text-center">
+      <p>Copyright &copy; Design:
+        <a href="https://startbootstrap.com/template-overviews/grayscale/">Start Bootstrap</a>
+      </p>
+    </div>
+  </footer>
+
+  <!-- Bootstrap core JavaScript -->
+  <script src="vendor/jquery/jquery.min.js"></script>
+  <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+
+  <!-- Plugin JavaScript -->
+  <script src="vendor/jquery-easing/jquery.easing.min.js"></script>
+
+
+  <!-- Custom scripts for this template -->
+  <script src="js/grayscale.min.js"></script>
+
+</body>
+
+</html>
